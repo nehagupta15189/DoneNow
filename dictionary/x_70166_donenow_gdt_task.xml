@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="GDT Task" max_length="40" name="x_70166_donenow_gdt_task" sizeclass="1" type="collection">
+        <element label="Waiting For" max_length="32" name="waiting_for" reference="sys_user" type="reference"/>
+    </element>
+</database>
